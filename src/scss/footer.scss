@@ -148,7 +148,7 @@
     align-items: center;
 
     img {
-        width: 120%;
+      width: 120%;
     }
   }
   .footer__title {
@@ -163,5 +163,8 @@
     margin-top: 14vw;
     font-size: 3vw;
     gap: 3vw;
+  }
+  .fancybox-content {
+    padding: 44px 15px 20px;
   }
 }

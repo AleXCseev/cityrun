@@ -2638,4 +2638,7 @@ body {
     font-size: 3vw;
     gap: 3vw;
   }
+  .fancybox-content {
+    padding: 44px 15px 20px;
+  }
 }
