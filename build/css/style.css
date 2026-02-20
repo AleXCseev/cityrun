@@ -2633,6 +2633,9 @@ body {
     padding: 4.5vw 12vw 2.4vw;
     margin-bottom: 7vw;
   }
+  .footer__block {
+    max-width: 87vw;
+  }
   .footer-info {
     margin-top: 14vw;
     font-size: 3vw;
