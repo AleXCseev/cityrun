@@ -1,0 +1,65 @@
+// input.error {
+// 	border: 2px solid red;
+// }
+
+body {
+	width: 100%;
+	height: auto;
+	font-size: 15px;
+	font-family: var(--font-family);
+	line-height: 1.3;
+	font-weight: 400;
+	color: var(--text-color);
+	background: var(--bg-color);
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	// width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+.site__wrapper {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	overflow: hidden;
+	margin: auto;
+}
+
+.container {
+	width: 1136px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.main {
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 1280px) {
+	.container {
+		width: 1000px;
+	}
+}
+
+@media (max-width: 1080px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+}
+
